@@ -1,0 +1,46 @@
+package com.msyshospital;
+
+import java.util.ArrayList;
+
+public class DoctorImpl{
+	
+	
+	String docName;
+	
+	int docExp;
+	
+	public String getDocName() {
+		
+		return docName;
+	}
+	
+	public void setDocName(String docName) {
+		
+		this.docName = docName;
+	}
+	
+	public int getDocExp() {
+		
+		return docExp;
+	}
+	
+	public void setDocExp(int docExp) {
+		
+		this.docExp = docExp;
+	}
+	
+	@Override
+	public String toString() {
+		
+		return 
+				"DoctorImpl "
+				+ "[docName=" 
+				+ docName + ","
+				+ " docExp=" 
+				+ docExp + "]";
+	}
+}	
+	
+	
+	
+
