@@ -1,0 +1,58 @@
+package com.msyshospital;
+
+public class Patient {
+	
+	String patientName;
+	String patientDisease;
+	 
+	int patientAge;
+	
+	
+	public String getPatientName() {
+		
+		return patientName;
+		
+	}
+	
+	public void setPatientName(String patientName) {
+		
+		this.patientName = patientName;
+		
+	}
+	
+	public String getPatientDisease() {
+		return patientDisease;
+	}
+	public void setPatientDisease(String patientDisease) {
+		this.patientDisease = patientDisease;
+		
+	}
+
+	
+	public int getPatientAge() {
+		
+		return patientAge;
+		
+	}
+	
+	public void setPatientAge(int patientAge) {
+		
+		this.patientAge = patientAge;
+		
+	}
+	
+	
+	@Override
+	public String toString() {
+		
+		return 
+				"Patient [patientName=" 
+				+patientName
+				+", PatientDisease="
+				+patientDisease
+				+ ", patientAge=" 
+				+ patientAge + "]";
+		
+	}
+}	
+
