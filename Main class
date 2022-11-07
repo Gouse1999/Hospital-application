@@ -1,0 +1,105 @@
+
+public class Hospital{
+
+	public static void main(String[] args) {
+		
+		DoctorImpl doctor=new DoctorImpl();
+		
+		DoctorImpl doctor1=new DoctorImpl();
+		
+		Patient patient=new Patient();
+		
+        Patient patient1=new Patient();
+		
+		Patient patient2=new Patient();
+		
+		Patient patient3=new Patient();
+		
+		
+		
+		doctor.setDocName("Gouse");
+		doctor.setDocAge(22);
+		
+		doctor.setDocProfession("Corona Specilist");
+		doctor.setDocExp(2);
+		
+		System.out.println("==================Doctor1=================");
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Doctor Name : "+doctor.getDocName());
+		System.out.println("Doctor Age :"+doctor.getDocAge());
+		System.out.println("Doctor Profession :"+doctor.getDocProfession());
+		System.out.println("Doctor Exp : "+doctor.docExp);
+		System.out.println("--------------------------------------");
+		
+		
+		patient.setPatientName("deepu");
+		patient.setPatientDisease("corona");
+		patient.setPatientAge(22);
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Patient Name : "+patient.getPatientName());
+		System.out.println("Patient Disease :"+patient.getPatientDisease());
+		System.out.println("patient Age :"+patient.getPatientAge());
+		System.out.println("-----------------------------------------");
+		
+		
+		patient1.setPatientName("adam");
+		patient1.setPatientDisease("fever");
+		patient1.setPatientAge(52);
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Patient Name : "+patient1.getPatientName());
+		System.out.println("Patient Disease : "+patient1.getPatientDisease());
+		System.out.println("Patient Age : "+patient1.getPatientAge());
+		System.out.println("--------------------------------------");
+		
+		System.out.println("==========================================");
+		
+		  
+		doctor1.setDocName("alex");
+		doctor1.setDocAge(27);
+		doctor1.setDocProfession("Cancer Specilist");
+		
+		doctor1.setDocExp(5);
+		
+		System.out.println("==================Doctor2=================");
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Doctor Name : "+doctor1.getDocName());
+		System.out.println("Docter Age : "+doctor1.getDocAge());
+		System.out.println("Docter Profession :"+doctor1.getDocProfession());
+		System.out.println("Doctor Exp : "+doctor1.docExp);
+		System.out.println("--------------------------------------");
+		
+		
+		patient2.setPatientName("drake");
+		patient2.setPatientDisease("cancer");
+		
+		patient2.setPatientAge(35);
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Patient Name : "+patient2.getPatientName());
+	    System.out.println("Patient Disease : "+patient2.getPatientDisease());
+		System.out.println("Patient Age: "+patient2.getPatientAge());
+		System.out.println("--------------------------------------");
+		
+		
+		patient3.setPatientName("suman");
+		patient3.setPatientDisease("cancer2");  
+		patient3.setPatientAge(60);
+		
+		System.out.println("--------------------------------------");
+		System.out.println("Patient Name : "+patient3.getPatientName());
+		System.out.println("Patient Disease : "+patient3.getPatientDisease());
+		System.out.println("Patient Age : "+patient3.getPatientAge());
+		System.out.println("--------------------------------------");
+		
+		System.out.println("==========================================");
+		
+		
+	}
+}
+		
+
+	 
