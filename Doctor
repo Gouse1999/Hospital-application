@@ -1,13 +1,14 @@
 package com.msyshospital;
 
-import java.util.ArrayList;
-
 public class DoctorImpl{
 	
 	
 	String docName;
-	
+	int docAge;
+	String docProfession;
 	int docExp;
+	
+	
 	
 	public String getDocName() {
 		
@@ -19,6 +20,28 @@ public class DoctorImpl{
 		this.docName = docName;
 	}
 	
+	
+	
+	
+	public int getDocAge() {
+		
+		return docAge;
+	}
+	public void setDocAge(int docAge) {
+		this.docAge = docAge;
+		
+	}
+	 
+	
+	public String getDocProfession() {
+		return docProfession;
+	}
+	public void setDocProfession(String docProfession) {
+		this.docProfession = docProfession;
+	}
+	
+	
+
 	public int getDocExp() {
 		
 		return docExp;
@@ -29,6 +52,8 @@ public class DoctorImpl{
 		this.docExp = docExp;
 	}
 	
+	
+	
 	@Override
 	public String toString() {
 		
@@ -36,6 +61,8 @@ public class DoctorImpl{
 				"DoctorImpl "
 				+ "[docName=" 
 				+ docName + ","
+				+"docAge="		
+				+ docAge+","
 				+ " docExp=" 
 				+ docExp + "]";
 	}
@@ -43,4 +70,7 @@ public class DoctorImpl{
 	
 	
 	
+
+
+
 
